@@ -105,3 +105,8 @@ deploy:
   type: git
   repo: https://github.com/MQpeng/MQpeng.github.io.git
   branch: master
+
+sitemap: 
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
