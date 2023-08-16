@@ -428,7 +428,7 @@ footer:
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
   statistics:
-    enable: false
+    enable: true
 
     # 统计数据来源，使用 leancloud 需要设置 `web_analytics: leancloud` 中的参数；使用 busuanzi 不需要额外设置，但是有时不稳定，另外本地运行时 busuanzi 显示统计数据很大属于正常现象，部署后会正常
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
@@ -529,7 +529,7 @@ index:
 #---------------------------
 post:
   banner_img: /img/default.png
-  banner_img_height: 70
+  banner_img_height: 45
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
@@ -572,7 +572,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: false
+      enable: true
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud
@@ -892,7 +892,7 @@ discuss:
 #---------------------------
 archive:
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 45
   banner_mask_alpha: 0.3
 
 
@@ -903,7 +903,7 @@ archive:
 category:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 45
   banner_mask_alpha: 0.3
 
   # 分类的排序字段，前面带减号是倒序，不带减号是正序
@@ -932,7 +932,7 @@ category:
 tag:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 80
+  banner_img_height: 45
   banner_mask_alpha: 0.3
   tagcloud:
     min_font: 15
@@ -949,7 +949,7 @@ tag:
 about:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 45
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
   name: "Fluid"
@@ -971,7 +971,7 @@ about:
 #---------------------------
 page:
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 45
   banner_mask_alpha: 0.3
 
 
@@ -982,7 +982,7 @@ page:
 page404:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 85
+  banner_img_height: 45
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
   # Delay in redirecting to home page (milliseconds)
@@ -996,7 +996,7 @@ page404:
 links:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 45
   banner_mask_alpha: 0.3
   # 友链的成员项
   # Member item of page
